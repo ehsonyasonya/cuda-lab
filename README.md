@@ -8,7 +8,7 @@ Repository for laboratory works on CUDA parallel computing.
 
 ### Lab 2: Image Convolution Filter Implementation
 * **Description:** 2D image convolution implemented on CPU and GPU with memory optimizations (Constant Memory and Dynamic Shared Memory).
-* **Source Code and PDF Report:** [Go to Lab2_Convolution folder](./Image_Convolution_Filter_Implementation_with_CUDA/)
+* **Source Code and PDF Report:** [Go to Lab2_Convolution folder](./Lab2_Convolution/)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ehsonyasonya/cuda-convolution-lab/blob/main/Lab2_Convolution/Image_Convolution_Filter_Implementation_with_CUDA.ipynb)
 
