@@ -10,9 +10,12 @@ Repository for laboratory works on CUDA parallel computing.
 * **Description:** 2D image convolution implemented on CPU and GPU with memory optimizations (Constant Memory and Dynamic Shared Memory).
 * **Source Code and PDF Report:** [Go to Lab2_Convolution folder](./Lab2_Convolution/)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ehsonyasonya/cuda-convolution-lab/blob/main/Lab2_Convolution/Image_Convolution_Filter_Implementation_with_CUDA.ipynb)
-
 ---
 
-## Environment
-All projects are designed and tested within **Google Colab** using NVIDIA GPU architectures (T4 / A100). To run any lab, simply click the "Open in Colab" badge above.
+## Environment & How to Run
+All projects are designed and tested within **Google Colab** using NVIDIA GPU architectures (T4 / A100).
+
+To run any laboratory work from this repository:
+1. Open the corresponding lab folder listed above.
+2. Click on the `.ipynb` notebook file.
+3. Click the **"Open in Colab"** button that automatically appears at the top of the file view on GitHub.
