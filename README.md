@@ -6,6 +6,10 @@ Repository for laboratory works on CUDA parallel computing.
 
 ## Labs List
 
+### Lab 1: Matrix Transposition Optimization
+* **Description:** Implementation of matrix transposition on CPU and GPU. The study analyzes the impact of Unified Memory (UM) with asynchronous prefetching on data migration latency and explores the limitations of global memory access patterns.
+* **Source Code and PDF Report:** [Go to Lab1_Transpose folder](./Lab1_Matrix_Transposition/)
+
 ### Lab 2: Image Convolution Filter Implementation
 * **Description:** 2D image convolution implemented on CPU and GPU with memory optimizations (Constant Memory and Dynamic Shared Memory).
 * **Source Code and PDF Report:** [Go to Lab2_Convolution folder](./Lab2_Convolution/)
