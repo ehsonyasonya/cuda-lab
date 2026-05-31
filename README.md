@@ -16,7 +16,7 @@ Repository for laboratory works on CUDA parallel computing.
 
 ### Lab 3: Real-Time HDR Tone Mapping
 * **Description:** HDR tone mapping implementation with GPU acceleration. Adapted for static images to ensure accurate performance benchmarking in Google Colab.
-* **Source Code and PDF Report:** [Go to Lab3_HDR_Tone_Mapping folder](./Lab3_HDR_Tone_Mapping/)
+* **Source Code and PDF Report:** [Go to Lab3_Tone_Mapping folder](./Lab3_Tone_Mapping/)
 
 ---
 
