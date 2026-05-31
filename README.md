@@ -14,6 +14,10 @@ Repository for laboratory works on CUDA parallel computing.
 * **Description:** 2D image convolution implemented on CPU and GPU with memory optimizations (Constant Memory and Dynamic Shared Memory).
 * **Source Code and PDF Report:** [Go to Lab2_Convolution folder](./Lab2_Convolution/)
 
+### Lab 3: Real-Time HDR Tone Mapping
+* **Description:** HDR tone mapping implementation with GPU acceleration. Adapted for static images to ensure accurate performance benchmarking in Google Colab.
+* **Source Code and PDF Report:** [Go to Lab3_HDR_Tone_Mapping folder](./Lab3_HDR_Tone_Mapping/)
+
 ---
 
 ## Environment & How to Run
@@ -23,3 +27,6 @@ To run any laboratory work from this repository:
 1. Open the corresponding lab folder listed above.
 2. Click on the `.ipynb` notebook file.
 3. Click the **"Open in Colab"** button that automatically appears at the top of the file view on GitHub.
+
+**Important Note for Code Access:**
+If you wish to examine or modify the implementation details, please navigate to the **`src/`** folder located inside each laboratory directory. There you will find the modified CUDA kernels (`.cu`), headers (`.h`), and source files (`.cpp`) that contain the custom logic for each task.
