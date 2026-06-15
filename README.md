@@ -18,6 +18,10 @@ Repository for laboratory works on CUDA parallel computing.
 * **Description:** HDR tone mapping implementation with GPU acceleration. Adapted for static images to ensure accurate performance benchmarking in Google Colab.
 * **Source Code and PDF Report:** [Go to Lab3_Tone_Mapping folder](./Lab3_Tone_Mapping/)
 
+### Lab 4: CUDA Webcam Filter Pipeline
+* **Description:** Design and implementation of a flexible, high-performance CUDA filter pipeline. Features include dynamic sequential filter chaining, custom Wipe Transitions, and asynchronous processing using CUDA streams. Includes a detailed performance analysis demonstrating L2 cache efficiency and effective GPU resource management.
+* **Source Code and PDF Report:** [Go to Lab4_Webcam_Filter_Pipeline folder](./Lab4_Webcam_Filter_Pipeline/)
+
 ---
 
 ## Environment & How to Run
