@@ -12,7 +12,8 @@
 int main(int argc, char **argv)
 {
     plog::init(plog::info, new plog::ConsoleAppender<plog::TxtFormatter>());
-
+    
+    //text flags into object FilterOptions
     cuda_filter::InputArgsParser parser(argc, argv);
     cuda_filter::FilterOptions options = parser.parseArgs();
 
@@ -29,6 +30,7 @@ int main(int argc, char **argv)
     std::stringstream ss(options.pipelineString);
     std::string segment;
 
+    //making text into the to do list, using PipelineNode
     while (std::getline(ss, segment, ',')) {
         if (segment == "blur")
             pipeline.push_back({cuda_filter::FilterType::BLUR, 1.0f, 0.0f});
@@ -50,6 +52,7 @@ int main(int argc, char **argv)
         currentFrame = frame.clone();
         outputFrame = currentFrame.clone();
 
+        //work with frames
         for (const auto& node : pipeline)
         {
             if (node.type == cuda_filter::FilterType::WIPE_TRANSITION)
